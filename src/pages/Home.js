@@ -7,6 +7,7 @@ const Home = () => {
   console.log(books)
   return (
     <>
+      <h1>Book List</h1>
       {books.map((book) => (
         <BookList
           key={book.id}
